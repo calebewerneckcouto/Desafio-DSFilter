@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+  --dsf-color-bg-primary: #c2c2c2;
+  --dsf-color-bg-secondary: #55bc04;
+  --dsf-color-bg-tertiary: #fff;
+
+  --dsf-color-font-primary: #fff;
+  --dsf-color-font-secondary: #6f6f6f;
+  --dsf-color-font-tertiary: #55bc04;
+  --dsf-color-font-placeholder: #c2c2c2;
+
+  --dsf-color-border: #c2c2c2;
+  --dsf-color-border-secondary: #55bc04;
+  
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--dsf-color-bg-primary);
+}
+.dsf-container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+.dsf-mb20{
+  margin-bottom: 20px;
+}
